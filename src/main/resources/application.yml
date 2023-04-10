@@ -1,0 +1,9 @@
+keycloak:
+  realm: SpringBootKeycloak
+  auth-server-url: https://81.208.162.35:8081/
+  resource: login-app
+  public-client: true
+  bearer-only: true
+  ssl-required : none
+server:
+  port: 8083
